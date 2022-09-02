@@ -248,7 +248,7 @@ yarn test
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662133983343/IM5DqsGB1.png align="center")
 
 
-> You just built your first Harness CI pipeline! Great job! It is as simple as that to create a CI Pipeline in Harness.
+> You just built your first Harness CI pipeline! Great job! With Harness CI, you can easily set up pipelines (using the graphical interface or as-code), connect them to your Git/artifact repo, and start building and testing!
 
 
 ## Reference Article
