@@ -21,7 +21,7 @@ Pulumi is a `fully managed service` that makes it easy to host the open source P
 
 The Pulumi Infrastructure as Code SDK lets us create, deploy, and manage AWS containers, serverless functions, and infrastructure using programming languages ​​like TypeScript, Python, Go, C#, and Java, and markup languages ​​like YAML. With the Pulumi AWS Provider Bundle and CLI, we can accomplish all of this in minutes.
 
-## Benefits of Pulumi
+# Benefits of Pulumi
 
 - Managing the complexity of the modern cloud
 
@@ -32,7 +32,7 @@ The Pulumi Infrastructure as Code SDK lets us create, deploy, and manage AWS con
 - Make collaboration easier and innovate faster
 
 
-## Pulumi Challenge 1
+# Pulumi Challenge
 
 Thousands of developers believe Pulumi is the perfect IaC tool to accelerate developers and manage complexity at modern cloud scale. Pulumi Challenges are a great way to experience the Pulumi platform. 
 
@@ -40,7 +40,7 @@ This challenge is `Startup in a Box`, where we will build and deploy our very ow
 
 
 
-#### Prerequisites
+## Prerequisites
 
 To do this, we need to establish a few things in advance.
 
@@ -52,7 +52,7 @@ To do this, we need to establish a few things in advance.
 6. [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 7. [Configure Pulumi to access your AWS account](https://www.pulumi.com/registry/packages/aws/installation-configuration/)
 
-#### Step 1 - First Pulumi Program
+## Step 1 - First Pulumi Program
 
 We will be creating a new Pulumi program using an AWS-specific Pulumi template using TypeScript. Create a new folder called `Pulumi-challenge` and run the following in it.
 
@@ -142,7 +142,7 @@ This Pulumi program creates a new S3 bucket and exports the name of the bucket.
 
 
 
-#### Step 2 - Create your first resource
+## Step 2 - Create your first resource
 
 Now that our basic AWS project is set up, we need to create our first resource. In this case, we create a new S3 bucket where we can store our static website. Also, make sure this bucket is private, as we only want to expose it to the CDN we'll configure later. 
 
@@ -180,7 +180,7 @@ Replace `My bucket` with a unique name. For example, `pulumi-challenge-makendran
 
 
 
-#### Step 3 - Working with Local Files
+## Step 3 - Working with Local Files
 
 Pulumi allows us to define our infrastructure using our preferred programming language. Today we use `TypeScript`. This means we can access the Node API. This includes finding folders and files. We can use these APIs to sync local files to an S3 bucket along with the original Pulumi template.
 
@@ -255,7 +255,7 @@ pulumi up --skip-preview
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662824252174/XBIvfdoeO.png align="center")
 
-#### Step 4 - Create a CDN
+## Step 4 - Create a CDN
 
 Next, we want to provision an S3 bucket with Cloudfront. These are quite large objects, but most of them can be copied and pasted without much thought.
 
@@ -364,7 +364,7 @@ curl http://dy97m8m1jyqks.cloudfront.net
 ```
 
 
-#### Step 5 - Introduction to ComponentResources
+## Step 5 - Introduction to ComponentResources
 
 We can keep adding resources, but Pulumi is more than that. We can create our own reusable components. Let's turn the above into a `CdnWebsite` component in `pulumi-challenge/cdn-website/index.ts`.
 
@@ -448,7 +448,7 @@ curl http://d2f4ewalsoswej.cloudfront.net
 ```
 
 
-#### Step 6 - Add another provider
+## Step 6 - Add another provider
 
 Now that we've served our website through S3 as fast as possible using `CdnWebsite` and `Cloudfront`, how do you know if our deployment is actually working? We can use a great service like `Checkly` to make sure your site goes through a series of health checks.
 
@@ -535,7 +535,7 @@ pulumi up
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662829694593/s-ODBQ3Ik.png align="center")
 
-#### Step 7 - Dynamic implementation of the Swag provider
+## Step 7 - Dynamic implementation of the Swag provider
 
 Everyone loves SWAG and Pulumi wants to give us something for completing this challenge. To do this, we need to align with dynamic providers through Pulumi. Create a new directory and file in `pulumi-challenge/swag-provider/index.ts`.
 
