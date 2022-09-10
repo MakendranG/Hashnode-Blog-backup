@@ -458,13 +458,13 @@ Now that we've served our website through S3 as fast as possible using `CdnWebsi
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662826200512/iih204Hs0.png align="center")
 [Source Image](https://www.checklyhq.com/)
 
-##### First, we need to add a new provider.
+First, we need to add a new provider.
 
 ```
 npm install @checkly/pulumi
 ```
 
-##### To get the API key from checkly
+To get the API key from checkly
 
 Login into checkly account and go to User Settings -> [API keys](https://app.checklyhq.com/settings/user/api-keys).
 
@@ -473,7 +473,7 @@ Select `Create API key`
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662826955150/NeChYeO-Z.png align="center")
 
-##### To get the Account ID from checkly
+To get the Account ID from checkly
 
 Go to [Account Settings of checkly](https://app.checklyhq.com/settings/account/general).
 
