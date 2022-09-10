@@ -1,4 +1,4 @@
-## Overview of Pulumi and It's Challenge Tutorial 101: The Essential Guide
+## Overview of Pulumi and Its Challenge Tutorial 101: The Essential Guide
 
 # What is Pulumi ?.
 
