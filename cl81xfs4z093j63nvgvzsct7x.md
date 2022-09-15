@@ -2,7 +2,7 @@
 
 In this blog, I am sharing the learning that is gained from the session **Getting Started with Digital Ocean Functions**.
 
-This session is really useful for those who want to learn about serverless concepts, FaaS, Serverless architecture, and implementing a cloud function in the digital ocean. It was a great opportunity to participate in the Getting Started with Digital Ocean Functions Session hosted by **Machine Learning Hacking** in collaboration with **Digital Ocean**.
+This session is really useful for those who want to learn about serverless concepts, FaaS, Serverless architecture, and implementing a cloud function in the digital ocean. It was a great opportunity to participate in the Getting Started with Digital Ocean Functions Session hosted by **Major League Hacking** in collaboration with **Digital Ocean**.
 
 **Speaker of the session:** Amy Negrette, Developer Advocate at Digital Ocean
 
@@ -144,7 +144,7 @@ return {"body": x.text}
 
 ```
 params = {
-        "name":"Makendran Gunasekaran",
+        "name":"MakendranDemo",
         "type":"dinosaur"
     }
 ```
@@ -154,7 +154,7 @@ params = {
 import requests
 def main(args):
     params = {
-        "name":"Makendran Gunasekaran",
+        "name":"MakendranDemo",
         "type":"dinosaur"
     }
     x = requests.post('https://functionschallenge.digitalocean.com/api/sammy/mlh',params)
