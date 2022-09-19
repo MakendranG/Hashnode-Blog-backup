@@ -226,7 +226,7 @@ You can repeat this process to make automatic, source-based changes to your webs
 
 By adding custom domains to your Amplify setup, your customers can easily access your content. You can register new domains through **Amazon Route 53**, or if you have domains registered outside of AWS, you can integrate with Route 53 and Amplify. 
 
-For our use, the domain *www.makendran.study* is a domain name registered by a third party registrar. Route 53 allows you to manage DNS configuration for domains registered outside of AWS.
+For our use, the domain *https://www.makendran.study* is a domain name registered by a third party registrar. Route 53 allows you to manage DNS configuration for domains registered outside of AWS.
 
 ## Start by setting up a public zone on Route 53. 
 
@@ -276,7 +276,7 @@ You can now set up custom domains in Amplify.
 - Choose **Add domain**. 
 
 
-- Enter a custom domain name for your domain (*makendran.study*). 
+- Enter a custom domain name for your domain (*https://www.makendran.study*). 
 
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663577744158/XpzNNBhcn.png align="left")
@@ -290,13 +290,12 @@ You can now set up custom domains in Amplify.
 - For subdomain, set www and choose to exclude custom domain root. 
 
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663577951834/GNou5--Xz.png align="left")
 
 
 - Choose Save. 
 
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663577964200/bMx7nSbc8.png align="left")
+
 
 
 Amplify starts the SSL certificate creation process. After a while, you'll be taken to your SSL configuration and see a domain verification in progress.
@@ -310,7 +309,7 @@ Amplify verifies domain ownership by creating an example CNAME record in the hos
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663580384406/ZKe53cMpr.png align="left")
 
-Customers can now access the website with a custom domain name *www.makendran.study*. 
+Customers can now access the website with a custom domain name *https://www.makendran.study*. 
 
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663580437684/hm5UcxggB.png align="left")
@@ -433,6 +432,15 @@ Hugo is a powerful tool for quickly delivering content in a variety of formats, 
 11. [AWS CodeCommit](https://aws.amazon.com/codecommit/)
 12. [Amazon S3](https://aws.amazon.com/s3/)
 13. [Agile website delivery with Hugo and AWS Amplify](https://aws.amazon.com/blogs/devops/agile-website-delivery-with-hugo-and-aws-amplify/)
+
+
+Gratitude for perusing my article till the end. I hope you realized something unique today. If you enjoyed this article then please share it to your buddies and if you have suggestions or thoughts to share with me then please write in the comment box.
+
+
+Follow me and share your thoughts,
+[GitHub](https://github.com/MakendranG)
+[LinkedIn](https://www.linkedin.com/in/makendran/)
+[Twitter](https://twitter.com/MakendranG)
 
 
 
