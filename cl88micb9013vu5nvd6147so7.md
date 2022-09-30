@@ -413,6 +413,12 @@ New content is hosted on the development site, so you can restrict access.
 
 3. Select the IDE you created in the AWS Cloud9 dashboard and Choose **Delete**.
 
+# BONUS
+
+Kindly watch the below video to see full demo.
+
+<iframe width="760" height="415" src="https://www.youtube.com/embed/Ai0Em_FQT00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 # Conclusion
 
