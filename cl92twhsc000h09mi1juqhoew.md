@@ -1,1 +1,224 @@
-IyMgSW50ZXJhY3Qgd2l0aCBBenVyZSB3ZWIgYXBwbGljYXRpb25zIHVzaW5nIHRoZSBQeXRob24gU0RLCgojIEludHJvZHVjdGlvbgoKUmVzb3VyY2VzIGFyZSB0aGUgYnVpbGRpbmcgYmxvY2tzIG9mIGNsb3VkIGFwcGxpY2F0aW9ucy4gU28sIHRoZSBjbG91ZCBkZXZlbG9wbWVudCBwcm9jZXNzIHN0YXJ0cyB3aXRoIGNyZWF0aW5nIHRoZSByaWdodCBlbnZpcm9ubWVudCB0byBob3N0IHRoZSB2YXJpb3VzIHBhcnRzIG9mIHlvdXIgYXBwbGljYXRpb24uIEF6dXJlIG9mZmVycyBhIHdpZGUgcmFuZ2Ugb2YgZGV2ZWxvcG1lbnQga2l0cywgaW5jbHVkaW5nICoqUHl0aG9uU0RLLCAuTkVULCBDTEksIGFuZCBvdGhlciB0aGlyZC1wYXJ0eSBhcHBsaWNhdGlvbnMqKi4KCkluIHRoaXMgYmxvZyBwb3N0LCB5b3Ugd2lsbCBsZWFybiBob3cgdG8gaW50ZXJhY3Qgd2l0aCB0aGUgQXp1cmUgZW52aXJvbm1lbnQgdXNpbmcgdGhlIFB5dGhvbiBTREsgYW5kIGJ1aWxkIGEgd2ViIGFwcGxpY2F0aW9uIHVzaW5nIHRoZSBQeXRob24gQ0xJIGFuZCBTREsuIAoKIyBDb25uZWN0IHRvIEF6dXJlIHVzaW5nIHRoZSBBenVyZSBDTEkKCgoqKkF6dXJlIENMSSoqIGlzIGEgY29tbWFuZC1saW5lIGludGVyZmFjZSBwcm92aWRlZCBieSB0aGUgQXp1cmUgdGVhbSB0aGF0IGNvbnRhaW5zIGEgc2V0IG9mIGNvbW1hbmRzIHVzZWQgdG8gY3JlYXRlIGFuZCBtYW5hZ2UgQXp1cmUgcmVzb3VyY2VzLiAKCkFzIHlvdSB3b3JrIHdpdGggdGhlIEF6dXJlIENMSSwgeW91J2xsIGV4cGVyaWVuY2UgZmlyc3QtaGFuZCB0aGUgdmFyaW91cyB0YXNrcyBmb3IgcmVzb3VyY2UgbWFuYWdlbWVudC4gSW4gdGhpcyBwYXJ0LCB5b3Ugd2lsbCBsZWFybiBob3cgdG8gdXNlIHRoZSBBenVyZSBDTEkgdG8gY29ubmVjdCB0byBBenVyZSBhbmQgbWFuYWdlIHlvdXIgcmVzb3VyY2VzLgoKCi0gT3BlbiB0aGUgSURFLiBMZWZ0LWNsaWNrIHRoZSBUZXJtaW5hbCBtZW51IGFuZCBjbGljayAqKk5ldyBUZXJtaW5hbCoqCgoKIVtpbWFnZS5wbmddKGh0dHBzOi8vY2RuLmhhc2hub2RlLmNvbS9yZXMvaGFzaG5vZGUvaW1hZ2UvdXBsb2FkL3YxNjY1NDA0MDgwNDAwL2t3Q3k3VWQ0ZS5wbmcgYWxpZ249ImxlZnQiKQoKVGhlcmUgYXJlIHNldmVyYWwgd2F5cyB0byBhY2Nlc3MgQXp1cmUuIEluIHRoaXMgY2FzZSwgeW91IHdpbGwgdXNlIHlvdXIgdXNlcm5hbWUgYW5kIHBhc3N3b3JkLiBBcyBhIGZpcnN0IHN0ZXAsIHNpZ24gaW4gdG8geW91ciBBenVyZSBhY2NvdW50IHVzaW5nIHRoZSBBenVyZSBDTEkgYW5kIHVzZSB0aGUgZm9sbG93aW5nIGNvbW1hbmRzIHRvIGludGVyYWN0IHdpdGggQXp1cmUgcmVzb3VyY2VzLgoKYGBgCmF6IGxvZ2luIC11IDx1c2VybmFtZT4gLXAgPHBhc3N3b3JkPgpgYGAKCllvdSBzaG91bGQgc2VlIHRoZSByZXN1bHRzIGJlbG93LCBhbG9uZyB3aXRoIGEgbGlzdCBvZiBhdmFpbGFibGUgcGxhbnMgYW5kIG90aGVyIHJlbGV2YW50IGFjY291bnQgaW5mb3JtYXRpb24uIAoKIVtpbWFnZS5wbmddKGh0dHBzOi8vY2RuLmhhc2hub2RlLmNvbS9yZXMvaGFzaG5vZGUvaW1hZ2UvdXBsb2FkL3YxNjY1NDA0NjYzNTI3L2lSaVB6SVg3eS5wbmcgYWxpZ249ImxlZnQiKQoKKipOb3RlOioqIAoKVGhlIG91dHB1dCBmcm9tIHRoZSBgTmFtZWAgZmllbGQgaXMgdGhlIG5hbWUgb2YgdGhlIGFkZGVkIHN1YnNjcmlwdGlvbiwgYW5kIHRoZSBvdXRwdXQgZnJvbSB0aGUgYHRlbmFudElkYCBmaWVsZCBpZGVudGlmaWVzIHRoZSBBenVyZSBBRCB0ZW5hbnQgdGhhdCB3YXMgYWRkZWQuIAoKIyBTaWduIGluIHRvIHRoZSBBenVyZSBwb3J0YWwgdXNpbmcgdGhlIFB5dGhvbiBTREsKCldoZW4gZGV2ZWxvcGluZyBhcHBsaWNhdGlvbnMgaW4gUHl0aG9uLCBpdCBpcyBhbHdheXMgYSBnb29kIGlkZWEgdG8gdXNlIGEgKip2aXJ0dWFsIGVudmlyb25tZW50KiogZm9yIGVhY2ggYXBwbGljYXRpb24uIFRoZSBQeXRob24gU0RLIGF1dGhlbnRpY2F0aW9uIHByb2Nlc3MgdXNlcyB0aGUgYGF6dXJlLWlkZW50aXR5IHBhY2thZ2VgLiBZb3UgY2FuIHVzZSB0aGUgbXVsdGktc2lnbi1vbiBvcHRpb24gaW4gdGhpcyBwYWNrYWdlIHRvIGxvZ2luIHRvIEF6dXJlLiAKCllvdSB3aWxsIHVzZSB0aGUgUHl0aG9uIFNESyB0byBsb2dpbiB0byBBenVyZSBhbmQgcmVxdWVzdCBhIHJlc291cmNlIHBvb2wgZnJvbSB5b3VyIHN1YnNjcmlwdGlvbi4KCi0gSW4gdGhlIElERSwgZ28gdG8gdGhlICoqRXhwbG9yZXIqKiBtZW51IGFuZCBjbGljayBvbiB0aGUgKipyZXF1aXJlbWVudHMudHh0KiogZmlsZS4KCgohW2ltYWdlLnBuZ10oaHR0cHM6Ly9jZG4uaGFzaG5vZGUuY29tL3Jlcy9oYXNobm9kZS9pbWFnZS91cGxvYWQvdjE2NjU0MDU0ODQ0MTQvYjZoWUU2cDVULnBuZyBhbGlnbj0ibGVmdCIpCgotIFBhc3RlIHRoZSBmb2xsb3dpbmcgaW50byB0aGUgKipyZXF1aXJlbWVudHMudHh0KiogZmlsZSBlZGl0b3Igd2luZG93OgoKYGBgCmF6dXJlLWlkZW50aXR5CmF6dXJlLW1nbXQtcmVzb3VyY2UKYGBgCgoKIVtpbWFnZS5wbmddKGh0dHBzOi8vY2RuLmhhc2hub2RlLmNvbS9yZXMvaGFzaG5vZGUvaW1hZ2UvdXBsb2FkL3YxNjY1NDA1NTMxMDk2L3R1Z0oxTzVnaC5wbmcgYWxpZ249ImxlZnQiKQoKQSBwYWNrYWdlIGlzIHJlcXVpcmVkIHRvIGludGVyYWN0IHdpdGggQXp1cmUuIEluIHRoaXMgY2FzZSwgaW5zdGFsbCB0aGUgYGF6dXJlLWlkZW50aXR5YCBwYWNrYWdlIHRvIGF1dGhlbnRpY2F0ZSB0byB0aGUgQXp1cmUgY2xvdWQgYW5kIGluc3RhbGwgdGhlIGBhenVyZS1tZ210LXJlc291cmNlYCBwYWNrYWdlIHRvIGludGVyYWN0IHdpdGggdGhlIHJlc291cmNlcyBhdmFpbGFibGUgaW4geW91ciBhY2NvdW50LiAKCi0gQ2xpY2sgKipGaWxlIC0+IFNhdmUqKiB0byBzYXZlIHRoZSBjb250ZW50cyBvZiB0aGUgZmlsZS4KCgohW2ltYWdlLnBuZ10oaHR0cHM6Ly9jZG4uaGFzaG5vZGUuY29tL3Jlcy9oYXNobm9kZS9pbWFnZS91cGxvYWQvdjE2NjU0MDU2MDIzNjIvLUo1U1V4SG1RLnBuZyBhbGlnbj0ibGVmdCIpCgotIFR5cGUgdGhlIGZvbGxvd2luZyBjb21tYW5kIGluIHRoZSB0ZXJtaW5hbCBhbmQgcHJlc3MgRW50ZXIuCgpgYGAKc3Vic2NyaXB0aW9uX2lkPSQoYXogYWNjb3VudCBzaG93IC0tcXVlcnkgIntzdWJzY3JpcHRpb25faWQ6aWR9IiAtbyB0c3YpCnJlc291cmNlX2dyb3VwPSQoYXogZ3JvdXAgbGlzdCAtLXF1ZXJ5ICJbXS57cmVzb3VyY2VfZ3JvdXA6bmFtZX1bMF0iIC1vIHRzdikKbG9jYXRpb249JChheiBncm91cCBsaXN0IC0tcXVlcnkgIltdLntsb2NhdGlvbjpsb2NhdGlvbn1bMF0iIC1vIHRzdikKZWNobyAic3Vic2NyaXB0aW9uX2lkPSIgJHN1YnNjcmlwdGlvbl9pZCAmJiBlY2hvICJyZXNvdXJjZV9ncm91cD0iICRyZXNvdXJjZV9ncm91cCAmJiBlY2hvICJsb2NhdGlvbj0iICRsb2NhdGlvbgpgYGAKVGhlIHRlcm1pbmFsIG91dHB1dCBpczoKCgohW2ltYWdlLnBuZ10oaHR0cHM6Ly9jZG4uaGFzaG5vZGUuY29tL3Jlcy9oYXNobm9kZS9pbWFnZS91cGxvYWQvdjE2NjU0MDU2NjQzOTgvZHh0WUtraXNnLnBuZyBhbGlnbj0ibGVmdCIpCgpUaGUgYWJvdmUgY29tbWFuZCB1c2VzIHRoZSBgc3Vic2NyaXB0aW9uX2lkLCByZXNvdXJjZV9ncm91cCwgYW5kIGxvY2F0aW9uYCB2YWx1ZXMsIGFuZCBzYXZlcyB0aGUgb3V0cHV0IG9mIHRoZSBjb21tYW5kLgoKLSBEb3VibGUtY2xpY2sgdGhlIGBzcmMucHlgIGZpbGUgYW5kIHBhc3RlIHRoZSBmb2xsb3dpbmcgY29kZS4gV2hlbiB5b3UncmUgZG9uZSwgc2F2ZSB0aGUgZmlsZS4KCmBgYAppbXBvcnQgb3MsIHJhbmRvbQpmcm9tIGF6dXJlLmlkZW50aXR5IGltcG9ydCBBenVyZUNsaUNyZWRlbnRpYWwKZnJvbSBhenVyZS5tZ210LnJlc291cmNlIGltcG9ydCBSZXNvdXJjZU1hbmFnZW1lbnRDbGllbnQKCnN1YnNjcmlwdGlvbl9pZCA9ICJSRVBMQUNFX1dJVEhfU1VCU0NSSVBUSU9OX0lEX0FCT1ZFIgpyZXNvdXJjZV9ncm91cCA9ICJSRVBMQUNFX1dJVEhfUkVTT1VSQ0VfR1JPVVBfVkFMVUVfQUJPVkUiCmxvY2F0aW9uID0gIlJFUExBQ0VfV0lUSF9MT0NBVElPTl9WQUxVRV9BQk9WRSIKCmNyZWRlbnRpYWwgPSBBenVyZUNsaUNyZWRlbnRpYWwoKQoKcmVzb3VyY2VfY2xpZW50ID0gUmVzb3VyY2VNYW5hZ2VtZW50Q2xpZW50KGNyZWRlbnRpYWwsIHN1YnNjcmlwdGlvbl9pZCkKcHJpbnQoZiJSZXNvdXJjZSBHcm91cCBpbiB0aGUgRW52OiB7bGlzdChyZXNvdXJjZV9jbGllbnQucmVzb3VyY2VfZ3JvdXBzLmxpc3QoKSlbMF0ubmFtZX0iKQpgYGAKClJlcGxhY2UgdGhlIGBzdWJzY3JpcHRpb25faWQsIHJlc291cmNlX2dyb3VwLCBhbmQgbG9jYXRpb25gIHZhbHVlcyDigIvigIt3aXRoIHRoZSB0ZXJtaW5hbCB2YWx1ZXMg4oCL4oCLZnJvbSB0aGUgcHJldmlvdXMgdGVybWluYWwgb3V0cHV0LiBTYXZlIHRoZSBmaWxlIGFmdGVyIG1ha2luZyBjaGFuZ2VzLgoKVGhlIGBjcmVkZW50aWFsc2AgdmFyaWFibGUgaXMgY2FsbGVkIHRvIGNvbm5lY3QgdG8gQXp1cmUgdXNpbmcgdGhlIEF6dXJlIENMSSBsb2dpbiBzZXNzaW9uIGNvbnRleHQuIGByZXNvdXJjZV9jbGllbnRgIHRha2VzIGFsbCB0aGUgcmVzb3VyY2VzIGluIHRoZSBzdWJzY3JpcHRpb24gYW5kIHJlZmVyZW5jZXMgdGhlbSB0byBwcmludCB0aGUgcmVzb3VyY2UgcG9vbCBuYW1lIHVzaW5nIGEgcHJpbnQgc3RhdGVtZW50LiAKCi0gVHlwZSB0aGUgZm9sbG93aW5nIGNvbW1hbmQgaW4gdGhlIHRlcm1pbmFsIGFuZCBwcmVzcyBFbnRlciBvbiB5b3VyIGtleWJvYXJkLgoKYGBgCnB5dGhvbjMgLW0gdmVudiB2ZW52CnNvdXJjZSAuL3ZlbnYvYmluL2FjdGl2YXRlCnBpcCBpbnN0YWxsIHB5bGludCBhdXRvcGVwOCAjIGRldiBkZXBlbmRlbmNpZXMKcGlwIGluc3RhbGwgLS11cGdyYWRlIHBpcApwaXAgaW5zdGFsbCAtciByZXF1aXJlbWVudHMudHh0ICMgcHJvZCBkZXBlbmRlbmNpZXMKYGBgCgpUaGUgYWJvdmUgY29tbWFuZCBwcmVwYXJlcyBhIHZpcnR1YWwgZW52aXJvbm1lbnQgZm9yIHJ1bm5pbmcgUHl0aG9uIGNvZGUuIFRoaXMgaXMgY29tcGxldGVkIGJ5IHVwZGF0aW5nIHRoZSBwYWNrYWdlcyBhbmQgaW5zdGFsbGluZyB0aGUgcGFja2FnZXMgbGlzdGVkIGluIHRoZSBgcmVxdWlyZW1lbnRzLnR4dGAgZmlsZS4gCgotIEZpbmFsbHksIHR5cGUgYHB5dGhvbiBzcmMucHlgIGFuZCBwcmVzcyBFbnRlciBvbiB5b3VyIGtleWJvYXJkLiAKClRoZSB0ZXJtaW5hbCBvdXRwdXQgaXM6CgoKIVtpbWFnZS5wbmddKGh0dHBzOi8vY2RuLmhhc2hub2RlLmNvbS9yZXMvaGFzaG5vZGUvaW1hZ2UvdXBsb2FkL3YxNjY1NDA2MDI5NTM4L1pYMTBWTGppQi5wbmcgYWxpZ249ImxlZnQiKQoKVGhlIFB5dGhvbiBjb2RlIHJhbiBzdWNjZXNzZnVsbHksIHJlcXVlc3RpbmcgdGhlIGVudmlyb25tZW50J3MgcmVzb3VyY2UgcG9vbC4KCiMgRGVwbG95IEF6dXJlIHdlYiBhcHBsaWNhdGlvbnMgdXNpbmcgdGhlIFB5dGhvbiBTREsKClRoZSAqKkF6dXJlIFB5dGhvbiBTREsqKiBwcm92aWRlcyBtYW5hZ2VtZW50IHBhY2tzIGZvciBhbG1vc3QgZXZlcnkgcmVzb3VyY2UgaW4gdGhlIHNlcnZpY2UgZGVsaXZlcnkgY2F0YWxvZy4gRWFjaCBzZXJ2aWNlIGluY2x1ZGVzIGEgbWFuYWdlbWVudCBwYWNrIHRoYXQgZW5hYmxlcyByZW1vdGUgY29tbXVuaWNhdGlvbiB3aXRoIHJlc291cmNlcy4gWW91IHdpbGwgdXNlIHRoZSBQeXRob24gU0RLIHRvIGNyZWF0ZSBhbiBBenVyZSBBcHBsaWNhdGlvbiBTZXJ2aWNlIFBsYW4gYW5kIGEgd2ViIGFwcGxpY2F0aW9uLgoKLSBDbGljayBvbiByZXF1aXJlbWVudHMudHh0IGFuZCBpbnNlcnQgdGhlIGZvbGxvd2luZyB0ZXh0IGF0IHRoZSBlbmQgb2YgdGhlIHRleHQgaW4gdGhlIGZpbGU6CgpgYGAKYXp1cmUtbWdtdC13ZWIKYGBgCgpUaGUgZmlsZSBsb29rcyBsaWtlIHRoaXM6CgoKIVtpbWFnZS5wbmddKGh0dHBzOi8vY2RuLmhhc2hub2RlLmNvbS9yZXMvaGFzaG5vZGUvaW1hZ2UvdXBsb2FkL3YxNjY1NDA2MzQ3OTYxLzk3TDZIdi0tVS5wbmcgYWxpZ249ImxlZnQiKQoKVGhlIGBhenVyZS1tZ210LXdlYmAgcGFja2FnZSBpcyByZXF1aXJlZCB0byBpbnRlcmFjdCB3aXRoIHdlYiBhcHBsaWNhdGlvbiByZXNvdXJjZXMgaW4gdGhlIEF6dXJlIGNsb3VkLiAKCi0gT3BlbiB0aGUgYHNyYy5weWAgZmlsZSBhbmQgYWRkIHRoZSBmb2xsb3dpbmcgaW1wb3J0IHN0YXRlbWVudHMgdG8gdGhlIGJlZ2lubmluZyBvZiB0aGUgZmlsZToKCmBgYApmcm9tIGF6dXJlLm1nbXQud2ViIGltcG9ydCBXZWJTaXRlTWFuYWdlbWVudENsaWVudApgYGAKCgpzcmMgZmlsZSBsb29rcyBsaWtlIHRoaXM6CgoKIVtpbWFnZS5wbmddKGh0dHBzOi8vY2RuLmhhc2hub2RlLmNvbS9yZXMvaGFzaG5vZGUvaW1hZ2UvdXBsb2FkL3YxNjY1NDA3MzcwMjA3L2tnV1BjWHpMby5wbmcgYWxpZ249ImxlZnQiKQoKClRoZSBpbXBvcnQgc3RhdGVtZW50IHRha2VzIHRoZSB3ZWJzaXRlIGFkbWluaXN0cmF0aW9uIGNsaWVudCBsaWJyYXJ5IGFuZCBhbGxvd3MgaXQgdG8gaW50ZXJhY3Qgd2l0aCB0aGUgd2ViIGFwcGxpY2F0aW9uLgoKLSBBZGQgdGhlIGZvbGxvd2luZyBjb2RlIHRvIHRoZSBlbmQgb2YgeW91ciBgc3JjLnB5YCBmaWxlLgoKCmBgYApzZXJ2aWNlX3BsYW5fbmFtZSA9ICdjYWxhYi1zZXJ2aWNlcGxhbicKd2ViX2FwcF9uYW1lID0gKGYiY2FsYWJ3ZWJhcHAte3JhbmRvbS5yYW5kaW50KDEsMTAwMDAwKTowNX0iKQoKIyBPYnRhaW4gdGhlIGNsaWVudCBvYmplY3QKYXBwX3NlcnZpY2VfY2xpZW50ID0gV2ViU2l0ZU1hbmFnZW1lbnRDbGllbnQoY3JlZGVudGlhbCwgc3Vic2NyaXB0aW9uX2lkKQoKIyBQcm92aXNpb24gdGhlIHBsYW47IExpbnV4IGlzIHRoZSBkZWZhdWx0CmFwcF9wbGFuID0gYXBwX3NlcnZpY2VfY2xpZW50LmFwcF9zZXJ2aWNlX3BsYW5zLmJlZ2luX2NyZWF0ZV9vcl91cGRhdGUocmVzb3VyY2VfZ3JvdXAsCiAgICBzZXJ2aWNlX3BsYW5fbmFtZSwKICAgIHsKICAgICAgICAibG9jYXRpb24iOiBsb2NhdGlvbiwKICAgICAgICAicmVzZXJ2ZWQiOiBUcnVlLAogICAgICAgICJza3UiIDogeyJuYW1lIiA6ICJTMSJ9CiAgICB9CikKcGxhbl9yZXN1bHQgPSBhcHBfcGxhbi5yZXN1bHQoKQoKCnByaW50KGYiUHJvdmlzaW9uZWQgQXBwIFNlcnZpY2UgcGxhbiB7cGxhbl9yZXN1bHQubmFtZX0iKQoKd2ViX2FwcCA9IGFwcF9zZXJ2aWNlX2NsaWVudC53ZWJfYXBwcy5iZWdpbl9jcmVhdGVfb3JfdXBkYXRlKHJlc291cmNlX2dyb3VwLAogICAgd2ViX2FwcF9uYW1lLAogICAgewogICAgICAgICJsb2NhdGlvbiI6IGxvY2F0aW9uLAogICAgICAgICJzZXJ2ZXJfZmFybV9pZCI6IHBsYW5fcmVzdWx0LmlkLAogICAgICAgICJzaXRlX2NvbmZpZyI6IHsKICAgICAgICAgICAgImxpbnV4X2Z4X3ZlcnNpb24iOiAicHl0aG9ufDMuOCIKICAgICAgICB9CiAgICB9CikKd2ViX2FwcF9yZXN1bHQgPSB3ZWJfYXBwLnJlc3VsdCgpCgpwcmludChmIlByb3Zpc2lvbmVkIHdlYiBhcHAge3dlYl9hcHBfcmVzdWx0Lm5hbWV9IGF0IHt3ZWJfYXBwX3Jlc3VsdC5kZWZhdWx0X2hvc3RfbmFtZX0iKQpgYGAKClVzZSB0aGUgYGFwcF9zZXJ2aWNlX2NsaWVudGAgUHl0aG9uIFNESyB0byBpbml0aWF0ZSBhbiBhZG1pbmlzdHJhdGl2ZSBjb25uZWN0aW9uIHRvIHRoZSBjbGllbnQuIFRoZSBgYXBwX3BsYW5gIHZhcmlhYmxlIGNyZWF0ZXMgYW4gYXBwbGljYXRpb24gc2VydmljZSByZXNvdXJjZSBhbmQgc3RvcmVzIHRoZSByZXN1bHRzLiBBIGxpc3Qgb2YgYWxsIGF2YWlsYWJsZSBjb21tYW5kcyBmb3IgQXBwIFNlcnZpY2UgcmVzb3VyY2VzIGNhbiBiZSBmb3VuZCBvbiB0aGUgKipbQXBwU2VydmljZVBsYW5zT3BlcmF0aW9uc10oaHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL2VuLXVzL3B5dGhvbi9hcGkvYXp1cmUtbWdtdC13ZWIvYXp1cmUubWdtdC53ZWIudjIwMjFfMDJfMDEub3BlcmF0aW9ucy5hcHBzZXJ2aWNlcGxhbnNvcGVyYXRpb25zP3ZpZXc9YXp1cmUtcHl0aG9uKSoqIGRvY3VtZW50YXRpb24gcGFnZS4gCgpTaW1pbGFybHksIGB3ZWJfYXBwYCBjcmVhdGVzIGEgd2ViIGFwcGxpY2F0aW9uIGJ5IHJlZmVyZW5jaW5nIHRoZSBzZXJ2aWNlIHBsYW4gb2YgdGhlIGhvc3RpbmcgYXBwbGljYXRpb24uIEEgbGlzdCBvZiBhbGwgY29tbWFuZHMgYXZhaWxhYmxlIGZvciBBcHAgU2VydmljZSByZXNvdXJjZXMgY2FuIGJlIGZvdW5kIG9uIHRoZSAqKltXZWJBcHBzT3BlcmF0aW9uc10oaHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL2VuLXVzL3B5dGhvbi9hcGkvYXp1cmUtbWdtdC13ZWIvYXp1cmUubWdtdC53ZWIudjIwMjFfMDJfMDEub3BlcmF0aW9ucy53ZWJhcHBzb3BlcmF0aW9ucz92aWV3PWF6dXJlLXB5dGhvbikqKiBkb2N1bWVudGF0aW9uIHBhZ2UuCgotIFRvIGluc3RhbGwgdGhlIHdlYiBtYW5hZ2VtZW50IHBhY2ssIHR5cGUgYHBpcCBpbnN0YWxsIC1yIHJlcXVpcmVtZW50cy50eHRgIGluIHRoZSB0ZXJtaW5hbCBhbmQgcHJlc3MgRW50ZXIuIAoKVGhlIHRlcm1pbmFsIG91dHB1dCBpczoKCgohW2ltYWdlLnBuZ10oaHR0cHM6Ly9jZG4uaGFzaG5vZGUuY29tL3Jlcy9oYXNobm9kZS9pbWFnZS91cGxvYWQvdjE2NjU0MDc5NjcwODYvQ25IUUNUZ0U5LnBuZyBhbGlnbj0ibGVmdCIpCgpBZnRlciB0aGUgaW5zdGFsbGF0aW9uIGlzIGNvbXBsZXRlLCB0aGUgbmV3IHBhY2thZ2UgaXMgYXZhaWxhYmxlIGluIHRoZSB2aXJ0dWFsIGVudmlyb25tZW50LgoKLSBUeXBlIGBweXRob24gc3JjLnB5YCBhbmQgcHJlc3MgRW50ZXIgb24geW91ciBrZXlib2FyZC4gVGhlIG91dHB1dCBpczoKCgohW2ltYWdlLnBuZ10oaHR0cHM6Ly9jZG4uaGFzaG5vZGUuY29tL3Jlcy9oYXNobm9kZS9pbWFnZS91cGxvYWQvdjE2NjU0MDgxMzc0NDgvR1c1a3otVWhZLnBuZyBhbGlnbj0ibGVmdCIpCgpDb2RlIEV4ZWN1dGlvbiBjcmVhdGVkIHRoZSBhcHBsaWNhdGlvbiBzZXJ2aWNlIHBsYW4gYW5kIHRoZSB3ZWIgYXBwbGljYXRpb24uIFRoZSBydW4gY29tbWFuZCBwcmludHMgdGhlIHJlc291cmNlIGdyb3VwIG5hbWUgYWxvbmcgd2l0aCB0aGUgYXBwbGljYXRpb24gc3Vic2NyaXB0aW9uIGFuZCB0aGUgbmFtZSBvZiB0aGUgd2ViIGFwcGxpY2F0aW9uLiBUaGUgd2ViIGFwcGxpY2F0aW9uIFVSTCBpcyBhbHNvIGRpc3BsYXllZCBmb3IgdmVyaWZpY2F0aW9uLgoKLSBDb3B5IHRoZSB3ZWIgVVJMIGZyb20gdGhlIGVuZCBvZiB0aGUgdGVybWluYWwgb3V0cHV0IHRoYXQgZW5kcyB3aXRoIEF6dXJld2Vic2l0ZXMubmV0IGFuZCBwYXN0ZSBpdCBpbnRvIGEgbmV3IGJyb3dzZXIgdGFiLgoKCiFbaW1hZ2UucG5nXShodHRwczovL2Nkbi5oYXNobm9kZS5jb20vcmVzL2hhc2hub2RlL2ltYWdlL3VwbG9hZC92MTY2NTQwODM2MTQwNy9NMGVFUlI3cmsucG5nIGFsaWduPSJsZWZ0IikKCgpUaGlzIGVuc3VyZXMgdGhhdCB5b3VyIHdlYiBhcHBsaWNhdGlvbiBpcyBidWlsdCBhbmQgZGVwbG95ZWQgb24gQXp1cmUuCgoKCiMgQ29uY2x1c2lvbgoKWW91IGhhdmUgdW5kZXJzdGFuZCBob3cgdG8gbG9nIGluIHRvIHRoZSBBenVyZSBwb3J0YWwgdXNpbmcgdGhlIFB5dGhvbiBTREsgYW5kIGRlcGxveSBhIHdlYiBhcHBsaWNhdGlvbiB1c2luZyB0aGUgUHl0aG9uIFNESyBmb3IgQXp1cmUuCg==
+# Interact with Azure web applications using the Python SDK
+
+# Introduction
+
+Resources are the building blocks of cloud applications. So, the cloud development process starts with creating the right environment to host the various parts of your application. Azure offers a wide range of development kits, including **PythonSDK, .NET, CLI, and other third-party applications**.
+
+In this blog post, you will learn how to interact with the Azure environment using the Python SDK and build a web application using the Python CLI and SDK. 
+
+# Connect to Azure using the Azure CLI
+
+
+**Azure CLI** is a command-line interface provided by the Azure team that contains a set of commands used to create and manage Azure resources. 
+
+As you work with the Azure CLI, you'll experience first-hand the various tasks for resource management. In this part, you will learn how to use the Azure CLI to connect to Azure and manage your resources.
+
+
+- Open the IDE. Left-click the Terminal menu and click **New Terminal**
+
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665404080400/kwCy7Ud4e.png align="left")
+
+There are several ways to access Azure. In this case, you will use your username and password. As a first step, sign in to your Azure account using the Azure CLI and use the following commands to interact with Azure resources.
+
+```
+az login -u <username> -p <password>
+```
+
+You should see the results below, along with a list of available plans and other relevant account information. 
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665404663527/iRiPzIX7y.png align="left")
+
+**Note:** 
+
+The output from the `Name` field is the name of the added subscription, and the output from the `tenantId` field identifies the Azure AD tenant that was added. 
+
+# Sign in to the Azure portal using the Python SDK
+
+When developing applications in Python, it is always a good idea to use a **virtual environment** for each application. The Python SDK authentication process uses the `azure-identity package`. You can use the multi-sign-on option in this package to login to Azure. 
+
+You will use the Python SDK to login to Azure and request a resource pool from your subscription.
+
+- In the IDE, go to the **Explorer** menu and click on the **requirements.txt** file.
+
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665405484414/b6hYE6p5T.png align="left")
+
+- Paste the following into the **requirements.txt** file editor window:
+
+```
+azure-identity
+azure-mgmt-resource
+```
+
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665405531096/tugJ1O5gh.png align="left")
+
+A package is required to interact with Azure. In this case, install the `azure-identity` package to authenticate to the Azure cloud and install the `azure-mgmt-resource` package to interact with the resources available in your account. 
+
+- Click **File -> Save** to save the contents of the file.
+
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665405602362/-J5SUxHmQ.png align="left")
+
+- Type the following command in the terminal and press Enter.
+
+```
+subscription_id=$(az account show --query "{subscription_id:id}" -o tsv)
+resource_group=$(az group list --query "[].{resource_group:name}[0]" -o tsv)
+location=$(az group list --query "[].{location:location}[0]" -o tsv)
+echo "subscription_id=" $subscription_id && echo "resource_group=" $resource_group && echo "location=" $location
+```
+The terminal output is:
+
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665405664398/dxtYKkisg.png align="left")
+
+The above command uses the `subscription_id, resource_group, and location` values, and saves the output of the command.
+
+- Double-click the `src.py` file and paste the following code. When you're done, save the file.
+
+```
+import os, random
+from azure.identity import AzureCliCredential
+from azure.mgmt.resource import ResourceManagementClient
+
+subscription_id = "REPLACE_WITH_SUBSCRIPTION_ID_ABOVE"
+resource_group = "REPLACE_WITH_RESOURCE_GROUP_VALUE_ABOVE"
+location = "REPLACE_WITH_LOCATION_VALUE_ABOVE"
+
+credential = AzureCliCredential()
+
+resource_client = ResourceManagementClient(credential, subscription_id)
+print(f"Resource Group in the Env: {list(resource_client.resource_groups.list())[0].name}")
+```
+
+Replace the `subscription_id, resource_group, and location` values ​​with the terminal values ​​from the previous terminal output. Save the file after making changes.
+
+The `credentials` variable is called to connect to Azure using the Azure CLI login session context. `resource_client` takes all the resources in the subscription and references them to print the resource pool name using a print statement. 
+
+- Type the following command in the terminal and press Enter on your keyboard.
+
+```
+python3 -m venv venv
+source ./venv/bin/activate
+pip install pylint autopep8 # dev dependencies
+pip install --upgrade pip
+pip install -r requirements.txt # prod dependencies
+```
+
+The above command prepares a virtual environment for running Python code. This is completed by updating the packages and installing the packages listed in the `requirements.txt` file. 
+
+- Finally, type `python src.py` and press Enter on your keyboard. 
+
+The terminal output is:
+
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665406029538/ZX10VLjiB.png align="left")
+
+The Python code ran successfully, requesting the environment's resource pool.
+
+# Deploy Azure web applications using the Python SDK
+
+The **Azure Python SDK** provides management packs for almost every resource in the service delivery catalog. Each service includes a management pack that enables remote communication with resources. You will use the Python SDK to create an Azure Application Service Plan and a web application.
+
+- Click on requirements.txt and insert the following text at the end of the text in the file:
+
+```
+azure-mgmt-web
+```
+
+The file looks like this:
+
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665406347961/97L6Hv--U.png align="left")
+
+The `azure-mgmt-web` package is required to interact with web application resources in the Azure cloud. 
+
+- Open the `src.py` file and add the following import statements to the beginning of the file:
+
+```
+from azure.mgmt.web import WebSiteManagementClient
+```
+
+
+src file looks like this:
+
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665407370207/kgWPcXzLo.png align="left")
+
+
+The import statement takes the website administration client library and allows it to interact with the web application.
+
+- Add the following code to the end of your `src.py` file.
+
+
+```
+service_plan_name = 'calab-serviceplan'
+web_app_name = (f"calabwebapp-{random.randint(1,100000):05}")
+
+# Obtain the client object
+app_service_client = WebSiteManagementClient(credential, subscription_id)
+
+# Provision the plan; Linux is the default
+app_plan = app_service_client.app_service_plans.begin_create_or_update(resource_group,
+    service_plan_name,
+    {
+        "location": location,
+        "reserved": True,
+        "sku" : {"name" : "S1"}
+    }
+)
+plan_result = app_plan.result()
+
+
+print(f"Provisioned App Service plan {plan_result.name}")
+
+web_app = app_service_client.web_apps.begin_create_or_update(resource_group,
+    web_app_name,
+    {
+        "location": location,
+        "server_farm_id": plan_result.id,
+        "site_config": {
+            "linux_fx_version": "python|3.8"
+        }
+    }
+)
+web_app_result = web_app.result()
+
+print(f"Provisioned web app {web_app_result.name} at {web_app_result.default_host_name}")
+```
+
+Use the `app_service_client` Python SDK to initiate an administrative connection to the client. The `app_plan` variable creates an application service resource and stores the results. A list of all available commands for App Service resources can be found on the **[AppServicePlansOperations](https://learn.microsoft.com/en-us/python/api/azure-mgmt-web/azure.mgmt.web.v2021_02_01.operations.appserviceplansoperations?view=azure-python)** documentation page. 
+
+Similarly, `web_app` creates a web application by referencing the service plan of the hosting application. A list of all commands available for App Service resources can be found on the **[WebAppsOperations](https://learn.microsoft.com/en-us/python/api/azure-mgmt-web/azure.mgmt.web.v2021_02_01.operations.webappsoperations?view=azure-python)** documentation page.
+
+- To install the web management pack, type `pip install -r requirements.txt` in the terminal and press Enter. 
+
+The terminal output is:
+
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665407967086/CnHQCTgE9.png align="left")
+
+After the installation is complete, the new package is available in the virtual environment.
+
+- Type `python src.py` and press Enter on your keyboard. The output is:
+
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665408137448/GW5kz-UhY.png align="left")
+
+Code Execution created the application service plan and the web application. The run command prints the resource group name along with the application subscription and the name of the web application. The web application URL is also displayed for verification.
+
+- Copy the web URL from the end of the terminal output that ends with Azurewebsites.net and paste it into a new browser tab.
+
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665408361407/M0eERR7rk.png align="left")
+
+
+This ensures that your web application is built and deployed on Azure.
+
+
+
+# Conclusion
+
+You have understand how to log in to the Azure portal using the Python SDK and deploy a web application using the Python SDK for Azure.
