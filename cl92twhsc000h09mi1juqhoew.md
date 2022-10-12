@@ -222,3 +222,11 @@ This ensures that your web application is built and deployed on Azure.
 # Conclusion
 
 You have understand how to log in to the Azure portal using the Python SDK and deploy a web application using the Python SDK for Azure.
+
+Gratitude for perusing my article till the end. I hope you realized something unique today. If you enjoyed this article then please share it with your buddies and if you have suggestions or thoughts to share with me then please write in the comment box.
+
+
+Follow me and share your thoughts,
+[GitHub](https://github.com/MakendranG)
+[LinkedIn](https://www.linkedin.com/in/makendran/)
+[Twitter](https://twitter.com/MakendranG)
