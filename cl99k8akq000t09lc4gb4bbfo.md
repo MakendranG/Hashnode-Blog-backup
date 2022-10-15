@@ -28,7 +28,7 @@
 # Running Amazon ECS with Fargate
 
 
-![Arch_AWS-Fargate_64@5x.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665817280792/xRYi6KHwl.png align="left")
+![Arch_AWS-Fargate_64@5x.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665817280792/xRYi6KHwl.png align="center")
 
 You can run services or tasks on *AWS Fargate* to deploy containers on serverless infrastructure managed by Amazon ECS.
 
