@@ -4,12 +4,19 @@
 
 ## What is Docker?
 
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665817168535/nJV_kVYee.png align="center")
+*[Image Source](https://umbrella.cisco.com/blog/considering-docker-consider-security-first)*
+
 - **Docker** is a tool that makes it easy to build, deploy, and run applications using containers. 
 - Containers allow developers to package and *deploy applications as a single package*, along with all necessary components such as libraries and other dependencies.
 - This ensures that the program will run on any other Linux machine, regardless of your custom settings on the machine, which may be different from the machine you use to write and test the code.
 
 
 ## What is Amazon ECS?
+
+
+![Arch_Amazon-Elastic-Container-Service_64@5x.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665817256433/n6Bo2qF8e.png align="center")
 
 
 - Amazon ECS manages containers and allows developers to run applications in the cloud without configuring the environment to run their code. 
@@ -19,6 +26,9 @@
 
 
 # Running Amazon ECS with Fargate
+
+
+![Arch_AWS-Fargate_64@5x.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665817280792/xRYi6KHwl.png align="left")
 
 You can run services or tasks on *AWS Fargate* to deploy containers on serverless infrastructure managed by Amazon ECS.
 
