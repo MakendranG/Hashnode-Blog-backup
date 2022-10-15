@@ -28,11 +28,12 @@ The wizard creates a cluster and gives you the option to run a sample web applic
 
 Kindly watch the below video on how to create a task definition, a service, and a cluster using Fargate.
 
-
+<iframe width="760" height="415" src="https://www.youtube.com/embed/UY9ishwjFYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Conclusion
 
 You have successfully created a task definition, a service, and a cluster using Fargate.
+
 
 Gratitude for perusing my article till the end. I hope you realized something unique today. If you enjoyed this article then please share it with your buddies and if you have suggestions or thoughts to share with me then please write in the comment box.
 
