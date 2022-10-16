@@ -24,6 +24,8 @@ AWS Config provides a detailed view of the configuration of AWS resources in you
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665913827792/Pcd00AqmS.png align="center")
 
+*[Image Source](https://docs.aws.amazon.com/config/latest/developerguide/how-does-config-work.html)*
+
 - When you enable AWS Config, it first identifies the supported AWS resources in your account and creates a configuration item for each resource.
 - AWS Config also creates a configuration item when the resource configuration changes and keeps a historical record of the resource configuration item after the configuration author runs. 
 - By default, AWS Config creates a configuration item for each supported resource in a region. 
