@@ -67,7 +67,7 @@ Kindly watch the below video on how to deploy Custom App Images to Container App
 
 <iframe width="760" height="415" src="https://www.youtube.com/embed/Qu_o3Xupsj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#Conclusion
+# Conclusion
 
 You added a custom image to the container registry using the Azure CLI and code environment. You used the container registry to create a revision for a custom image.
 
