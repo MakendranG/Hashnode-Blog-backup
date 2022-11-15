@@ -1,4 +1,4 @@
-# Continuous integration and deployment with code services
+# Continuous integration and deployment with AWS code services
 
 # Introduction
 
