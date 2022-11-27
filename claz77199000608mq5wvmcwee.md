@@ -38,8 +38,8 @@ An Azure virtual network is the building block for secure communication between 
 
 - On the same page, click `+ Add Subnet`, click Add Subnet in the pop-up window, enter the following information, and then click `Add`.
 
-1. **Subnet Name:** function-subnet
-2. **Subnet address range:** 10.0.1.0/24
+**Subnet Name:** function-subnet
+**Subnet address range:** 10.0.1.0/24
 
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669535232568/gk-XYWXks.png align="center")
@@ -81,13 +81,7 @@ An Azure virtual network is the building block for secure communication between 
 
 # Create an HTTP trigger function to display the outgoing IP
 
-There are several ways to create and deploy Azure Functions. In production, you can set up a deployment mechanism that allows Azure Functions to pull the latest version of your code from your version control system. Function apps provide different types of functions, including 
-
-HTTP triggers
-Timer triggers
-Cosmos DB triggers
-Blob storage triggers
-Queued storage triggers
+There are several ways to create and deploy Azure Functions. In production, you can set up a deployment mechanism that allows Azure Functions to pull the latest version of your code from your version control system. Function apps provide different types of functions, including HTTP triggers, Timer triggers, Cosmos DB triggers, Blob storage triggers and Queued storage triggers.
 
 
 - In the top search bar of the Azure portal, search for the function app which was created earlier.
