@@ -83,11 +83,11 @@ An Azure virtual network is the building block for secure communication between 
 
 There are several ways to create and deploy Azure Functions. In production, you can set up a deployment mechanism that allows Azure Functions to pull the latest version of your code from your version control system. Function apps provide different types of functions, including 
 
-- HTTP triggers
-- Timer triggers
-- Cosmos DB triggers
-- Blob storage triggers
-- Queued storage triggers
+HTTP triggers
+Timer triggers
+Cosmos DB triggers
+Blob storage triggers
+Queued storage triggers
 
 
 - In the top search bar of the Azure portal, search for the function app which was created earlier.
@@ -95,14 +95,14 @@ There are several ways to create and deploy Azure Functions. In production, you 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669536030248/3PRNaV7WM.png align="center")
 
 
-- To see your Outbound IP addresses and Additional Outbound IP Addresses, click the Properties button under Settings in the left panel menu.
+- To see your `Outbound IP addresses` and `Additional Outbound IP Addresses`, click the `Properties` button under Settings in the left panel menu.
 
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669536107444/i42DcaTZK.png align="center")
 
 > The IP addresses listed here are used by the platform as the source IP address when sending HTTP requests or feature-generated traffic. 
 
-- Select Functions from the left panel menu and click + Create.
+- Select Functions from the left panel menu and click `+ Create`.
 
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669536136717/TY_xSt-c7.png align="center")
@@ -172,14 +172,14 @@ You connect your function app to a virtual network subnet and test the function 
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669536698435/gjmd_slXC.png align="center")
 
-- Click OK and wait for the deployment to complete. 
+- Click `OK` and wait for the deployment to complete. 
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669536771753/xMBPIYfhK.png align="center")
 
 - Once the connection is established, you will see the virtual network configuration listed on the Virtual Network Integration page.
 
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669536819549/VtJWJkMvp.png align="center")
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669536771753/xMBPIYfhK.png align="center")
 
 
 
@@ -187,12 +187,14 @@ You connect your function app to a virtual network subnet and test the function 
 
 - Return to the Function app, select `Configuration` under `Settings` from the left menu, and click `+ New Application Setting`.
 
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669536819549/VtJWJkMvp.png align="center")
+
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669536858492/9aw7cdzvU.png align="center")
 
 - Enter the following information for Name and Value and click OK.
 
-1. **Name:** WEBSITE_VNET_ROUTE_ALL
-2. **Value:** 1
+**Name:** WEBSITE_VNET_ROUTE_ALL
+**Value:** 1
 
 
 
@@ -235,8 +237,8 @@ You connect your function app to a virtual network subnet and test the function 
 
 - Under Settings on the left menu, click Subnets and select the following options for subnet settings:
 
-1. **Virtual Network:** demo-vnet
-2. **Subnet Name:** function-subnet
+**Virtual Network:** demo-vnet
+**Subnet Name:** function-subnet
 
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669538219217/flAqskL7G.png align="center")
